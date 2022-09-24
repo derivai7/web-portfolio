@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Roboto Light", serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  transition: .3s;
+}
+
+b {
+  display: inline-block;
+  width: 100px;
+}
+
+.side {
+  position: fixed;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  padding: 20px 0;
+  background: #222831;
+  color: #EEEEEE;
+}
+
+.side a {
+  margin: 5px 0;
+  letter-spacing: 1px;
+  color: #EEEEEE;
+}
+
+.side a:hover {
+  background: #393E46;
+}
+
+.side > * {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.side img {
+  display: block;
+  width: 200px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.side .social a {
+  margin: 0 5px;
+  padding: 8px 10px;
+  border-radius: 50%;
+  background: #333;
+  font-size: 18px;
+}
+
+.side .social a:hover {
+  color: #00ADB5;
+}
+
+.side .nav a {
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.side .nav a i {
+  padding-right: 10px;
+}
+
+.content {
+  position: relative;
+  margin-left: 300px;
+  color: #222831;
+}
+
+.title {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.title h1 {
+  position: relative;
+}
+
+.title div {
+  position: relative;
+  height: 5px;
+  width: 100px;
+  margin: auto;
+  background: #222831;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  margin: 20px auto;
+  line-height: 25px;
+}
+
+#home {
+  background: #E3FDFD;
+  height: 100vh;
+  text-align: center;
+  padding-top: 250px;
+  box-sizing: border-box;
+}
+
+#home h3 {
+  font-size: 60px;
+}
+
+#home h1 {
+  font-size: 100px;
+  line-height: 80px;
+}
+
+#home p {
+  font-size: 30px;
+}
+
+#home .button {
+  display: inline-block;
+  margin-top: 200px;
+  color: #222831;
+  z-index: 5;
+}
+
+#home .button p {
+  font-size: 20px;
+}
+
+#about .container img {
+  width: 25%;
+  border-radius: 5px;
+}
+
+#about .container .right {
+  display: inline-block;
+  float: right;
+  width: 70%;
+}
+
+#about .container .right h2 {
+  margin: 10px 0 20px;
+}
+
+#about .container .right p {
+  margin-top: 10px;
+}
+
+#about .container .right .details {
+  display: inline-block;
+}
+
+#about .container .right .skills {
+  display: inline-block;
+  float: right;
+}
+
+#about .container .right .argument {
+  margin-top: 20px;
+}
+
+#education .container div {
+  display: inline-block;
+  width: 48%;
+  border: 2px solid #222831;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+#education .container div.right {
+  float: right;
+}
+
+#education .container div h3,
+#education .container div p {
+  margin: 10px 0;
+}
+
+#portfolio .container div {
+  margin: 20px 0;
+}
+
+#portfolio .container div h3 {
+  margin: 10px 0;
+}
+
+#contact .container {
+  margin: 70px auto;
+  padding: 50px;
+  background: #222831;
+  color: #EEEEEE;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#contact .container div {
+  margin: auto;
+}
+
+#contact .container .button {
+  display: inline-block;
+  background: #EEEEEE;
+  color: #222831;
+  margin: 20px;
+  padding: 6px;
+  width: 150px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#contact .container .button i {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+#contact .container .button:hover {
+  background: #E3FDFD;
+}
