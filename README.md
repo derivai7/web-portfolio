@@ -1,2 +1,2 @@
-# web-portfolio
-tugas desain dan pemrograman web membuat website portofolio
+# Web-portfolio
+Tugas desain dan pemrograman web membuat website portofolio
